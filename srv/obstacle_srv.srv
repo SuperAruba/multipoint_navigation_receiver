@@ -1,0 +1,4 @@
+float32 positionx
+float32 positiony
+------
+int8 obstacle_probability 

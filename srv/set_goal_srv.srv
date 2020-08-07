@@ -1,0 +1,4 @@
+geometry_msgs/Vector3[] positions
+geometry_msgs/Quaternion[] quaternions
+---
+string result
