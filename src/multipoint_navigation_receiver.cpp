@@ -72,7 +72,7 @@ bool goalsCB(multipoint_navigation_receiver::set_goal_srv::Request &req,multipoi
 int main(int argc, char** argv)
 {
   thread_isexist = false;
-  ros::init(argc, argv, "mymove_base_client");
+  ros::init(argc, argv, "multipoint_navigation_receiver");
   n = new ros::NodeHandle();
   ROS_INFO("start");
   ros::service::waitForService("/obstacle_information");
