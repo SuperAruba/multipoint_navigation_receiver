@@ -2,12 +2,14 @@
 <package format="2">
   <name>multipoint_navigation_receiver</name>
   <version>0.0.1</version>
-  <description>The multipoint_navigation_receiver package</description>
+  <description> It is a function table that receives multipoint information,
+  then controls the time of sending the target point and serves the Move_base 
+  </description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
   <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="renqiuan@inspur.com">ros</maintainer>
+  <maintainer email="renqiuan@inspur.com">qiuan ren</maintainer>
 
 
   <!-- One license tag required, multiple allowed, one license per tag -->
@@ -19,14 +21,14 @@
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-   <url type="website">http://wiki.ros.org/multipoint_navigation_receiver</url> 
+  <url type="website">http://wiki.ros.org/multipoint_navigation_receiver</url> 
 
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
   <!-- Authors do not have to be maintainers, but could be -->
   <!-- Example: -->
   <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
-
+  <author email="renqiuan@inspur.com">qiuan ren</author>
 
   <!-- The *depend tags are used to specify dependencies -->
   <!-- Dependencies can be catkin packages or system dependencies -->
